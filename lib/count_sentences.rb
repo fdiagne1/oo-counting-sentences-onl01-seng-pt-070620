@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-  binding.pry
+  #binding.pry
     if self.split(/\.|\?|\!/) > 0
       return sentence.count
     else
