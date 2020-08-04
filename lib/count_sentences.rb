@@ -16,11 +16,11 @@ class String
 
   def count_sentences
   #binding.pry
-    # if self.split(/\.|\?|\!/) > 0
+    # if self.split(/) > 0
     #   return sentence.count
     # else
     #   0
     # end
-    self.split(/\.|\?|\!/).count
+    self.split(/[.?!]+/).count
   end
 end
