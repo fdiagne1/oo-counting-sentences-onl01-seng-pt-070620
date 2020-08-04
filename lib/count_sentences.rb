@@ -21,5 +21,6 @@ class String
     # else
     #   0
     # end
+    self.split(/\.|\?|\!/).count
   end
 end
